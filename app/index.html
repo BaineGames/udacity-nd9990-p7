@@ -1,0 +1,35 @@
+<h1>Udacity Capstone</h1>
+<h2>United States Weather Explorer</h2>
+
+<p>This web app is my Udacity Cloud Developer Capstone Project. It is a simple docker container that allows you use the 
+    <a href='https://openweathermap.org' target="_blank">Open Weather API Service</a>
+</p>
+
+<p>This web-app allows you explore weather in the United States. If you are not front the United States, I have included a list of zipcodes to use to test.</p>
+
+Custom Zipcode: <input type="number" maxlength="5" id="zipcode">
+
+<button id="getWeatherByZip">Get Weather</button>
+
+<p>
+    Preset Zipcodes
+    <button class="getWeatherByZip" value='91104'>91104</button>
+    <button class="getWeatherByZip" value='48734'>48734</button>
+    <button class="getWeatherByZip" value='32006'>32006</button>
+</p>
+
+<div id="currentWeather">
+    <p id="currentName"></p>
+    <p id="currentTemp"></p>
+    <p id="currentTempLow"></p>
+    <p id="currentTempHigh"></p>
+    <p id="currentHumidity"></p>
+    <p id="currentPressure"></p>
+    <p id="currentWind"></p>
+</div>
+
+<div id="forecastWeather"></div>
+
+<script type='text/javascript' src='./js/jquery.js'></script>
+<script type='text/javascript' src='./js/api.js'></script>
+<script type='text/javascript' src='./js/init.js'></script>
