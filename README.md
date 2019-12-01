@@ -2,7 +2,7 @@
 Udacity Cloud Developer Capstone Project
 
 ## Project Description
-Using the [Open Weather API](https://openweathermap.org), explore the weather across the United States to see real time information on current weather. This is my submission for the Udacity Cloud Developer Capstone
+Using the [Open Weather API](https://openweathermap.org), explore the weather across the United States to see real time information on current weather. This is my submission for the Udacity Cloud Developer Capstone. You can find the Docker Image I created [here](https://hub.docker.com/r/noahross/weather-udacity-capstone).
 
 ### Rate Limits
 This is a free API license so there is a rate limit of no more than 60 queries per minute. To serve this project, this should not be an issue.
